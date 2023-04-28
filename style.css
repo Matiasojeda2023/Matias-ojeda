@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+.translation-box {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+textarea {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    align-self: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
